@@ -84,11 +84,11 @@ Rails.application.configure do
     :address        => ENV['MAILGUN_SMTP_SERVER'],
     :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
     :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-    :domain         => 'fast-caverns-68409.herokuapp.com', #eg: 'yourappname.herokuapp.com'
+    :domain         => 'polar-brushlands-18648.herokuapp.com', #eg: 'yourappname.herokuapp.com'
     :authentication => :plain,
   }
   config.action_mailer.default_url_options = {
-  :host => 'fast-caverns-68409.herokuapp.com'
+  :host => 'polar-brushlands-18648.herokuapp.com'
   }
 
   config.paperclip_defaults = {
